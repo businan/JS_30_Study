@@ -1,2 +1,2 @@
 
-export const items = JSON.parse(localStorage.getItem('items')) || [];
+export const items = JSON.parse(window.localStorage.getItem('items')) || [];
